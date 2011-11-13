@@ -47,6 +47,7 @@ stylesheets[all][]        = css/comments.css
 stylesheets[all][]        = css/forms.css
 stylesheets[all][]        = css/fields.css
 stylesheets[all][]        = css/custom-calendar.css
+stylesheets[all][]		  = um_resources/css/um_branding.css
 stylesheets[print][]      = css/print.css
 
 ; Example of adding handheld stylesheets. The iPhone's preferred media type
@@ -67,7 +68,7 @@ stylesheets-conditional[lte IE 6][all][]  = css/ie6.css
 ; Optionally add some JavaScripts to your theme.
 
 ;scripts[] = js/script.js
-
+scripts[] = um_resources/js/um.js
 
 
 ; The regions defined in Zen's default page.tpl.php file.  The name in

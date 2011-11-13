@@ -1,0 +1,251 @@
+/* This file contains the CSS for The University of Montana's standard header and footer */
+
+/* ******************** page defaults/zeros *********** */
+.um_standard_header *, .um_standard_footer *{
+	margin: 0px;
+	padding: 0px;	
+}
+/*
+body {
+	background: url(../imx/body_gradient.png) repeat-x;
+	background-color:  #EDEDED;
+	font-family: Arial,Helvetica,sans-serif; 
+	color: #313131; 
+	font-size:9pt;
+	margin:0;
+	padding:0;
+} 
+*/
+
+.um_standard_header {
+	background: url(../imx/body_gradient.png) repeat-x;
+	font-family: Arial,Helvetica,sans-serif; 
+	color: #313131; 
+	font-size:9pt;
+	margin:0;
+	padding:0;
+}
+
+a img { 
+	border: 0px;
+}
+#accessibenav { 
+	position: absolute;
+	top: -9999px;
+	font-size: 1px;
+}
+.hidden {
+	position: absolute;
+	top: -9999px;
+	font-size: 1px;
+}
+.pngfix{
+    /*This class makes PNGs transparent when linked up with unitpngfix.js for IE6*/
+}
+/*
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+*/
+#header_container{
+    margin: 0 auto;
+	width: 960px;
+}
+#navrightlinks_wrap{
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#navrightlinks_wrap ul{
+	padding: 0px;
+	margin: 0px;
+	height:auto;
+	width:auto;
+}
+#navrightlinks_wrap ul li{
+	float:left;
+	display:inline;
+	padding: 0px 2px 0px 2px;
+}
+#navsearch_wrap{
+    float: left;
+    overflow: hidden;
+    padding-top: 3px;
+}
+#navsearch_form{
+    float: left;
+    overflow: hidden;
+}
+#navsearch_button{
+    float: left;
+    overflow: hidden;
+}
+#txtSearch{
+	padding-top: 1px;
+	padding-bottom: 2px;
+	width: 120px;
+	padding-left: 2px;
+	height: 14px;
+	position: absolute;
+	overflow:hidden;
+}
+#btnSearch{
+    margin-left:129px;
+    background: #e2e2e2 url(../imx/search_button.png) repeat-x;
+    font-size: 11px;
+    padding: 2px 0px 0px 0px;
+    text-align: center;
+    width: 22px;
+	height: 17px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.conttop {
+	background: transparent url("../imx/conttop.png") no-repeat top;
+	margin: 10px 0px 0px 0px;
+	height: 15px;
+	width: 960px;
+	display: block;
+}
+.maincontent_border{
+	border-bottom: 1px solid #c7c7c7;
+}
+.contbottomW {
+	background: transparent url(../imx/contbottom.png) no-repeat center top;
+	height: 15px;
+	margin-bottom: 22px;
+	display: block;
+}
+
+/* ********************* UM STANDARD HEADER ************************ */
+.um_standard_header {
+	min-width: 900px;
+	height: 82px;
+	background: url(../imx/body_gradient.png) repeat-x;
+	/* margin-bottom: 20px; */
+}
+.um_standard_header #logo{
+	padding-left: 6px;
+	padding-top: 10px;
+	float: left;
+}
+.um_standard_header #TopSearch{
+	float:right;
+	height: 30px;
+	padding-right: 6px;
+	padding-top: 40px;
+}
+.um_standard_header #navrightlinks_wrap{
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.um_standard_header #TopSearch a:link, #TopSearch a:visited, #TopSearch a:active {
+	color: #666666;
+	font-size: 11px;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	text-decoration: none;
+}
+.um_standard_header #TopSearch a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+.um_standard_header #TopSearch a {
+	border-right: 1px solid #666666;
+	padding: 0px 8px 0px 4px;
+}
+.um_standard_header #TopSearch .header_last {
+	border-right: none;
+	padding: 0px 8px 0px 4px;
+}
+.um_standard_header #navrightlinks_wrap ul{
+	padding: 0px;
+	margin: 0px;
+	height:auto;
+	width:auto;
+}
+.um_standard_header #navrightlinks_wrap ul li{
+	float:left;
+	display:inline;
+	padding: 0px 2px 0px 2px;
+}
+.um_standard_header .search{
+	float: left;
+	overflow: hidden;
+	margin: 3px 0px 0px 3px;
+}
+
+.um_standard_header .search label{
+	overflow: hidden;
+	width: 0px;
+	display: block;
+	height: 0px;
+}
+.gradient_button{
+	background:url("../imx/text_back.jpg") repeat-x scroll 0 0 #E2E2E2;
+	border:1px solid #A0A0A0;
+	overflow: hidden;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.um_standard_header .search_input{
+	height:14px;
+	padding: 1px 0px 2px 2px;
+	width:120px;
+	margin-right: 5px;
+	display: block;
+	float: left;
+}
+.um_standard_header .search_button{
+	text-align: center;
+	padding: 0px 0px 6px 0px;
+	margin: 0px;
+	width: 22px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	height: 19px;
+	font-size: 11px;
+	cursor: pointer;
+}
+/* ********************* UM STANDARD FOOTER ************************ */
+.footer_wrap_right{
+	display: none;
+}
+.um_standard_footer{
+	text-align: center;
+	margin: 3px 0px 15px 0px;
+	font-family: Arial,Helvetica,sans-serif;
+	background: #EDEDED;
+}
+.um_standard_footer ul{
+	padding: 7px 11px;
+	margin: 0 auto;
+}
+.um_standard_footer ul.box{
+	padding: 6px 8px;
+	background-color: #fff;
+	border: 1px solid #c3c3c3;
+	border-radius: 7px;
+	width: 560px;
+}
+.um_standard_footer li{
+	display: inline;
+	padding: 0px 16px;
+	border-right: 1px solid #868686;
+	color: #696969;
+	font-size: 12px;
+}
+.um_standard_footer li.last{
+	border-right: 0px;
+}
+.um_standard_footer li a{
+	color: #696969;
+	text-decoration: none;
+}
+.um_standard_footer li a:hover{
+	color: #000;
+}

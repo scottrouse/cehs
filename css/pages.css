@@ -62,13 +62,13 @@ body {
 #branding-college {
 	height: 43px;
 	clear: both;
-	position: absolute;
-	top: 57px;
+	/* position: absolute; */
+	/* top: 57px; */
 }
 
 #branding-department {
 	position: absolute;
-	top: 105px;
+	top: 55px;
 	width: 100%;
 }
 

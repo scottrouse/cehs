@@ -69,18 +69,43 @@
  */
 ?>
 
+<div class="um_standard_header">
+            <div id="accessibenav">
+                Accessible Navigation. Go to: <a href="#mainnav">Navigation</a>
+                <a href="#content">Main Content</a>
+                <a href="#footercontent">Footer</a>
+            </div>
+            <div id="logo">
+                <a href="http://www.umt.edu/" target="_parent" title="The University of Montana Homepage"><img alt="The University of Montana" src="/sites/all/themes/cehs/um_resources/imx/umlogo200w.png" title="UM Logo"></a>
+            </div>
+            <div id="TopSearch">
+                <div id="navrightlinks_wrap">
+                    <ul>
+                        <li>
+                            <a href="http://www.umt.edu/home/atoz/">A to Z Index</a>
+                        </li>
+                        <li>
+                            <a class="last" href="http://www.umt.edu/home/directory/">Directory</a>
+                        </li>
+                        <li>
+                            <a class="header_last" href="http://www.umt.edu/">UM Home</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <form accept-charset="utf-8" action="http://www.umt.edu/home/search/" id="cse-search-box" method="get">
+                        <label for="q">
+                            Search UM
+                        </label>
+                        <input class="gradient_button search_input" id="q" name="q" onblur="resetText(this);" onfocus="clearBox(this);" placeholder="Search UM" value="Search UM" type="text"><input name="cx" value="004842374792843146445:2r-2xi1nlr4" type="hidden"><input name="cof" value="FORID:10" type="hidden"><input name="ie" value="UTF-8" type="hidden"><input class="gradient_button search_button" name="sa" value="Go" type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
 <div id="page-wrapper"><div id="page">
   <div id="branding-header">
-  	<div id="branding-university">
-  		<div id="um-logo">
-  			<a href="http://umt.edu" title="The University of Montana">
-  				<img src="/<?php print $directory; ?>/images/umlogo.png" alt="The University of Montana" width="177" height="55" />
-  			</a>
-  		</div>
-  		<div id="um-links">
-  			<?php print theme('links', array('links' => menu_navigation_links('menu-university-menu'), 'attributes' => array('class'=> array('links', 'university-menu', 'inline', 'clearfix')) ));?>
-  		</div>
-  	</div>
+
   	
   	<div id="branding-college">
   		<a href="http://www.health.umt.edu/" title="The College of Health Professions and Biomedical Sciences">
@@ -203,3 +228,20 @@
 </div></div><!-- /#page, /#page-wrapper -->
 
 <?php print render($page['bottom']); ?>
+
+<div class="um_standard_footer" id="footercontent">
+            <ul>
+                <li>
+                    <a href="http://www.umt.edu/">The University of Montana</a>
+                </li>
+                <li>
+                    Missoula, MT
+                </li>
+                <li>
+                    <a href="http://www.umt.edu/home/comments">Contact UM Switchboard</a>
+                </li>
+                <li class="last">
+                    <a href="http://www.umt.edu/home/accessibility">Accessibility</a>
+                </li>
+            </ul>
+        </div>
