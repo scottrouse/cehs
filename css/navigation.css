@@ -4,6 +4,14 @@
  */
 
 
+ul li.expanded {
+	list-style-image: url("../images/menu-expanded-light.png");
+}
+
+ul li.collapsed {
+	list-style-image: url("../images/menu-collapsed-light.png");
+}
+
 /*
  * The active item in a Drupal menu
  */
@@ -19,8 +27,21 @@ li a.active {
   background-color: #555555;
 }
 
+#navigation ul#main-menu {
+  box-shadow: 0px 0px 5px #222222;
+  -moz-box-shadow: 0px 0px 5px #222222;
+  -webkit-box-shadow: 0px 0px 5px #222222;
+  margin-right: 30px;
+  border-right: 4px solid #39661C;
+  background-color: #444545;
+}
+
 #navigation .section {
-	background-color: #444545;
+	background: #91D801; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00D1C4', endColorstr='#0099A3'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(181,244,82)), to(rgb(106,177,55))); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  rgb(181,244,82),  rgb(106,177,55)); /* for firefox 3.6+ */
+	height: 3em;
 }
 
 #navigation ul.links, /* Main menu and secondary menu links */
@@ -28,12 +49,28 @@ li a.active {
   margin: 0;
   padding: 0;
   text-align: left; /* LTR */
+  line-height: 3em;
 }
 
 #navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
 #navigation .content li {
   float: left; /* LTR */
-  padding: 0 10px 0 0; /* LTR */
+  padding: 0;
+}
+
+#navigation ul.links li a {
+	display: block;
+	padding: 0 20px;
+	color: #00ffc0;
+	text-decoration: none;
+}
+
+#navigation ul.links li a:hover, #navigation ul.links li a.active-trail {
+	color: #FFFFFF;
+	background: #91D801; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00D1C4', endColorstr='#0099A3'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(181,244,82)), to(rgb(106,177,55))); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  rgb(181,244,82),  rgb(106,177,55)); /* for firefox 3.6+ */
 }
 
 .region-navigation {
@@ -62,4 +99,31 @@ li a.active {
  * these limitations, see http://drupal.org/project/menu_block
  */
 .block-menu-block {
+	
+}
+
+.block-menu-block a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+
+#block-menu-block-1 ul.menu li a.active, #block-menu-block-1 ul.menu li.expanded a.active-trail, #block-menu-block-1 ul.menu li.active-trail ul li.leaf a.active {
+	color: #D8FF00;
+}
+
+#block-menu-block-1 ul.menu li.active-trail ul li a {
+	color: #00FFC0;
+}
+
+
+
+#um-links ul.links li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#um-links ul.links li a:hover {
+	text-decoration: underline;
 }

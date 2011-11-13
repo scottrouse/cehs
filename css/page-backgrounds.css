@@ -11,7 +11,7 @@
 
 
 body {
-	background-color: #A2A2A2;
+	background-color: #000000;
 }
 
 #page-wrapper {
@@ -33,10 +33,11 @@ body {
 }
 
 #main-wrapper {
-	background-color: #343434;
+	background-color: #A2A2A2;
 }
 
 #main {
+	background-color: #343434;
 }
 
 .region-footer {

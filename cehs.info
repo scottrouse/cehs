@@ -46,6 +46,7 @@ stylesheets[all][]        = css/nodes.css
 stylesheets[all][]        = css/comments.css
 stylesheets[all][]        = css/forms.css
 stylesheets[all][]        = css/fields.css
+stylesheets[all][]        = css/custom-calendar.css
 stylesheets[print][]      = css/print.css
 
 ; Example of adding handheld stylesheets. The iPhone's preferred media type
@@ -85,6 +86,8 @@ regions[sidebar_second] = Second sidebar
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[content]        = Content
+regions[content_top]    = Content Top
+regions[content_bottom] = Content Bottom
 regions[header]         = Header
 regions[footer]         = Footer
 regions[bottom]         = Page bottom

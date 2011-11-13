@@ -87,6 +87,20 @@ h2.block-title /* Block title */ {
 }
 
 #block-system-user-menu /* "User menu" block for Drupal user menu */ {
+	margin: 45px 10px 0 0;
+	float: right;
+	font-size: 0.8em;
+}
+
+#block-system-user-menu ul.menu {
+	margin: 0;
+}
+
+#block-system-user-menu ul.menu li {
+	list-style: none;
+	list-style-image: none;
+	float: left;
+	margin-right: 10px;
 }
 
 #block-system-help /* "System help" block */ {
@@ -105,4 +119,11 @@ h2.block-title /* Block title */ {
 }
 
 #block-user-online /* "Who's online" block for a list of the online users */ {
+}
+
+
+#block-block-7 /* "Social Media Icons" block */ {
+	position: absolute;
+	right: 55px;
+	top: -16px;
 }

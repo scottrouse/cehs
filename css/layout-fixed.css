@@ -69,9 +69,11 @@ body {
  */
 #main-wrapper {
   position: relative;
+  top: -17px;
 }
 
 #main {
+	margin: 0 10px;
 }
 
 /*
@@ -80,32 +82,32 @@ body {
 #content,
 .no-sidebars #content {
   float: left; /* LTR */
-  width: 1000px;
+  width: 980px;
   margin-left: 0; /* LTR */
-  margin-right: -1000px; /* LTR */ /* Negative value of #content's width + left margin. */
+  margin-right: -980px; /* LTR */ /* Negative value of #content's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to #content .section. */
 }
 
 .sidebar-first #content {
   width: 760px;
-  margin-left: 240px; /* LTR */ /* The width of .region-sidebar-first. */
-  margin-right: -1000px; /* LTR */ /* Negative value of #content's width + left margin. */
+  margin-left: 220px; /* LTR */ /* The width of .region-sidebar-first. */
+  margin-right: -980px; /* LTR */ /* Negative value of #content's width + left margin. */
 }
 
 .sidebar-second #content {
-  width: 760px;
+  width: 630px;
   margin-left: 0; /* LTR */
-  margin-right: -760px; /* LTR */ /* Negative value of #content's width + left margin. */
+  margin-right: -630px; /* LTR */ /* Negative value of #content's width + left margin. */
 }
 
 .two-sidebars #content {
-  width: 560px;
-  margin-left: 240px; /* LTR */ /* The width of .region-sidebar-first */
-  margin-right: -800px; /* LTR */ /* Negative value of #content's width + left margin. */
+  width: 410px;
+  margin-left: 220px; /* LTR */ /* The width of .region-sidebar-first */
+  margin-right: -630px; /* LTR */ /* Negative value of #content's width + left margin. */
 }
 
 #content .section {
-  margin: 0;
+  margin: 0 20px;
   padding: 0;
 }
 
@@ -114,15 +116,15 @@ body {
  */
 #navigation {
   float: left; /* LTR */
-  width: 100%;
-  margin-left: 0; /* LTR */
+  width: 1000px;
+  margin-left: -10px; /* LTR */
   margin-right: -100%; /* LTR */ /* Negative value of #navigation's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to #navigation .section. */
   height: 3em; /* The navigation can have any arbritrary height. We picked one
                     that is the line-height plus 1em: 1.3 + 1 = 2.3
                     Set this to the same value as the margin-top below. */
   position: relative;
-  top: -50px;
+  top: -73px;
   z-index: 4;
 }
 
@@ -141,9 +143,9 @@ body {
  */
 .region-sidebar-first {
   float: left; /* LTR */
-  width: 240px;
+  width: 220px;
   margin-left: 0; /* LTR */
-  margin-right: -240px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
+  margin-right: -220px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
 }
 
@@ -157,14 +159,14 @@ body {
  */
 .region-sidebar-second {
   float: left; /* LTR */
-  width: 200px;
-  margin-left: 800px; /* LTR */ /* Width of content + sidebar-first. */
-  margin-right: -1000px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
+  width: 350px;
+  margin-left: 620px; /* LTR */ /* Width of content + sidebar-first. */
+  margin-right: -970px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
 }
 
 .region-sidebar-second .section {
-  margin: 0 0 0 20px; /* LTR */
+  margin: 0px 20px; /* LTR */
   padding: 0;
 }
 
@@ -172,6 +174,8 @@ body {
  * Footer
  */
 .region-footer {
+	margin-top: -25px;
+	padding-top: 25px;
 }
 
 /*

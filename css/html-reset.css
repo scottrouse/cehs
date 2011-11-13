@@ -35,9 +35,7 @@ body {
    * to use a 14px font size on the page, delete the 12px declarations.
    */
 
-  /* Use a 12px base font size with a 18px line height */
-  font-size: 0.75em; /* 16px x .75 = 12px */
-  line-height: 1.5em; /* 12px x 1.5 = 18px */
+
 
   /* Use a 14px base font size with a 21px line height */
   font-size: 0.875em; /* 16px x .875 = 14px */
@@ -110,7 +108,7 @@ fieldset {
 
    */
 
-  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
 pre,
@@ -331,13 +329,16 @@ button {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
+	color: #CCCCCC;
 }
 
 a:visited {
+	color: #C7C7C1;
 }
 
 a:hover,
 a:focus {
+	color: #FFFFFF;
 }
 
 a:active {

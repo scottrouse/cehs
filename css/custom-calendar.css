@@ -1,0 +1,110 @@
+
+
+.calendar-calendar .month-view .view-item-event_calendar {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+	background-color: fuchsia;
+}
+
+.calendar-calendar td .inner .view-item-event_calendar div.calendar {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+	-moz-box-shadow: 1px 1px 3px #ccc;
+	-webkit-box-shadow: 1px 1px 3px #ccc;
+	box-shadow: 1px 1px 3px #ccc;
+	background: #00BABE; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00D1C4', endColorstr='#0099A3'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(0,209,195)), to(rgb(0,152,163))); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  rgb(0,209,195),  rgb(0,152,163)); /* for firefox 3.6+ */
+}
+
+.calendar-calendar td .inner .view-item-event_calendar div.calendar a {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.calendar-calendar td .inner .view-field {
+	color: #EFEFEF;
+}
+
+.calendar-calendar td .inner .view-item-event_calendar div.calendar div:first-child {
+	background: #0099A2;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+ 
+.calendar-calendar td .inner div.calendar div, .calendar-calendar td .inner div.calendar div a {
+	background: none;
+}
+ 
+ 
+.calendar-calendar td span.date-display-single, .calendar-calendar td span.date-display-start, .calendar-calendar td span.date-display-end, .calendar-calendar td span.date-display-separator {
+	font-weight: normal;
+}
+ 
+ 
+
+ 
+.calendar-calendar div.date-nav {
+	line-height: 3em;
+	height: 2em;
+}
+
+
+
+
+
+.calendar-calendar ul.inline li.calendar a, .calendar-calendar .date-prev .next a, .calendar-calendar .date-next .next a {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #d1d1d1) );
+    background:-moz-linear-gradient( center top, #ffffff 5%, #d1d1d1 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d1d1d1');
+    background-color:#ffffff;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-weight:bold;
+    padding:0 7px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #ffffff;
+    margin: 5px 0;
+    font-size: 70%
+}
+
+.calendar-calendar ul.inline li.calendar a:hover, .calendar-calendar .date-prev .next a:hover, .calendar-calendar .date-next .next a:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d1d1d1), color-stop(1, #ffffff) );
+    background:-moz-linear-gradient( center top, #d1d1d1 5%, #ffffff 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1d1d1', endColorstr='#ffffff');
+    background-color:#d1d1d1;
+}
+
+.calendar-calendar ul.inline li.calendar a:active, .calendar-calendar .date-prev .next a:active, .calendar-calendar .date-next .next a:active {
+    position:relative;
+    top:1px;
+}
+
+.calendar-calendar .date-prev .next a, .calendar-calendar .date-next .next a {
+	line-height: 1.5em;
+	margin: 5px 10px;
+	padding: 3px 7px;
+}
