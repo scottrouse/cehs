@@ -18,7 +18,7 @@ body {
 */
 
 .um_standard_header {
-	background: url(../imx/body_gradient.png) repeat-x;
+	/* background: url(../imx/body_gradient.png) repeat-x; */
 	font-family: Arial,Helvetica,sans-serif; 
 	color: #313131; 
 	font-size:9pt;
@@ -123,8 +123,9 @@ a img {
 .um_standard_header {
 	min-width: 900px;
 	height: 82px;
-	background: url(../imx/body_gradient.png) repeat-x;
+	/* background: url(../imx/body_gradient.png) repeat-x; */
 	/* margin-bottom: 20px; */
+	background-color: #232323;
 }
 .um_standard_header #logo{
 	padding-left: 6px;
@@ -144,17 +145,17 @@ a img {
     margin-top: 5px;
 }
 .um_standard_header #TopSearch a:link, #TopSearch a:visited, #TopSearch a:active {
-	color: #666666;
+	color: #FFF;
 	font-size: 11px;
 	font-family: Verdana, Tahoma, Arial, sans-serif;
 	text-decoration: none;
 }
 .um_standard_header #TopSearch a:hover {
-	color: #000000;
+	color: #666;
 	text-decoration: none;
 }
 .um_standard_header #TopSearch a {
-	border-right: 1px solid #666666;
+	border-right: 1px solid #FFF;
 	padding: 0px 8px 0px 4px;
 }
 .um_standard_header #TopSearch .header_last {

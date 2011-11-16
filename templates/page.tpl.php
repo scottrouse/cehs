@@ -76,7 +76,7 @@
                 <a href="#footercontent">Footer</a>
             </div>
             <div id="logo">
-                <a href="http://www.umt.edu/" target="_parent" title="The University of Montana Homepage"><img alt="The University of Montana" src="/sites/all/themes/cehs/um_resources/imx/umlogo200w.png" title="UM Logo"></a>
+                <a href="http://www.umt.edu/" target="_parent" title="The University of Montana Homepage"><img alt="The University of Montana" src="/sites/all/themes/cehs/images/umlogo.png" title="UM Logo"></a>
             </div>
             <div id="TopSearch">
                 <div id="navrightlinks_wrap">
