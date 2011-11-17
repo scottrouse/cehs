@@ -229,19 +229,4 @@
 
 <?php print render($page['bottom']); ?>
 
-<div class="um_standard_footer" id="footercontent">
-            <ul>
-                <li>
-                    <a href="http://www.umt.edu/">The University of Montana</a>
-                </li>
-                <li>
-                    Missoula, MT
-                </li>
-                <li>
-                    <a href="http://www.umt.edu/home/comments">Contact UM Switchboard</a>
-                </li>
-                <li class="last">
-                    <a href="http://www.umt.edu/home/accessibility">Accessibility</a>
-                </li>
-            </ul>
-        </div>
+
